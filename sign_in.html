@@ -11,6 +11,12 @@
         <button type="submit">Sign In</button>
     </form>
 
+   <button onclick="showMessage()" class="btn btn-primary">Click Me</button>
+
+<p id="dynamicText">This is original text</p>
+<button onclick="changeText()" class="btn btn-warning">Change Text</button>
+
+<button onclick="toggleDarkMode()" class="btn btn-dark">Toggle Dark Mode</button>
     {% if error %}
         <p style="color:red; text-align: center;">{{ error }}</p>
     {% endif %}
