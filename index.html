@@ -1,7 +1,4 @@
-{% extends "index.html" %}
 
-
-{% block content %}
    <div class="card">
       <h1> Michael Aguirre </h1>
     <h2>Sign In</h2>
@@ -18,10 +15,10 @@
 <button onclick="changeText()" class="btn btn-warning">Change Text</button>
 
 <button onclick="toggleDarkMode()" class="btn btn-dark">Toggle Dark Mode</button>
-    {% if error %}
+  
         <p style="color:red; text-align: center;">{{ error }}</p>
-    {% endif %}
+  
       <script src="js/script.js"></script>
    </div>
-{% endblock %}
+
 
